@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>初始化 | NetAxe</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="description" content="NetAxe文档">
+    
+    <link rel="preload" href="/assets/css/0.styles.e9e9961b.css" as="style"><link rel="preload" href="/assets/js/app.19a9fcfa.js" as="script"><link rel="preload" href="/assets/js/2.c9ef29ed.js" as="script"><link rel="preload" href="/assets/js/12.917c79ba.js" as="script"><link rel="prefetch" href="/assets/js/10.5332a1c2.js"><link rel="prefetch" href="/assets/js/11.5d83e623.js"><link rel="prefetch" href="/assets/js/13.8171a92f.js"><link rel="prefetch" href="/assets/js/14.5dfa4a42.js"><link rel="prefetch" href="/assets/js/15.9c3a22c7.js"><link rel="prefetch" href="/assets/js/16.323ddda0.js"><link rel="prefetch" href="/assets/js/17.a9c06ca8.js"><link rel="prefetch" href="/assets/js/18.6bf3c49a.js"><link rel="prefetch" href="/assets/js/19.70091921.js"><link rel="prefetch" href="/assets/js/3.b06302ed.js"><link rel="prefetch" href="/assets/js/4.1a183149.js"><link rel="prefetch" href="/assets/js/5.816efc10.js"><link rel="prefetch" href="/assets/js/6.2e23b904.js"><link rel="prefetch" href="/assets/js/7.4eafe292.js"><link rel="prefetch" href="/assets/js/8.42f91d26.js"><link rel="prefetch" href="/assets/js/9.8aff2578.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e9e9961b.css">
+  </head>
+  <body class="theme-mode-light">
+    <div id="app" data-server-rendered="true"><div class="theme-container sidebar-open have-rightmenu"><header class="navbar blur"><div title="目录" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">NetAxe</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/help/产品文档说明.html" class="nav-link">产品说明</a></div><div class="nav-item"><a href="/questions/问题反馈.html" class="nav-link">问题反馈</a></div><div class="nav-item"><a href="https://gitee.com/IFLY-DevNet/net-axe.git" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  中文站点
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://github.com/iflytek/NetAxe.git" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  英文站点
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><!----> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/help/产品文档说明.html" class="nav-link">产品说明</a></div><div class="nav-item"><a href="/questions/问题反馈.html" class="nav-link">问题反馈</a></div><div class="nav-item"><a href="https://gitee.com/IFLY-DevNet/net-axe.git" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  中文站点
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://github.com/iflytek/NetAxe.git" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  英文站点
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>说明文档_知识库</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/02705b/" aria-current="page" class="active sidebar-link">初始化</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level2"><a href="/pages/02705b/#总览" class="sidebar-link">总览</a></li><li class="sidebar-sub-header level2"><a href="/pages/02705b/#浏览器支持" class="sidebar-link">浏览器支持</a></li><li class="sidebar-sub-header level2"><a href="/pages/02705b/#预备内容" class="sidebar-link">预备内容</a></li><li class="sidebar-sub-header level2"><a href="/pages/02705b/#快速开始" class="sidebar-link">快速开始</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/pages/02705b/#_1-docker-配置更新" class="sidebar-link">1. docker 配置更新</a></li><li class="sidebar-sub-header level3"><a href="/pages/02705b/#_2-网络设备配置备份目录-git-初始化" class="sidebar-link">2. 网络设备配置备份目录 git 初始化</a></li><li class="sidebar-sub-header level3"><a href="/pages/02705b/#_3-启动数据库服务" class="sidebar-link">3. 启动数据库服务</a></li><li class="sidebar-sub-header level3"><a href="/pages/02705b/#_4-配置-conf-文件" class="sidebar-link">4. 配置 conf 文件</a></li><li class="sidebar-sub-header level3"><a href="/pages/02705b/#_5-启动所有服务-docker-server-下" class="sidebar-link">5. 启动所有服务(docker/server 下)</a></li><li class="sidebar-sub-header level3"><a href="/pages/02705b/#_6-数据初始化" class="sidebar-link">6. 数据初始化</a></li><li class="sidebar-sub-header level3"><a href="/pages/02705b/#_7-微服务配置" class="sidebar-link">7. 微服务配置</a></li><li class="sidebar-sub-header level4"><a href="/pages/02705b/#路由菜单栏" class="sidebar-link">路由菜单栏</a></li><li class="sidebar-sub-header level4"><a href="/pages/02705b/#配置路由-api" class="sidebar-link">配置路由 /api/*</a></li><li class="sidebar-sub-header level4"><a href="/pages/02705b/#配置-nacos-自动发现" class="sidebar-link">配置 nacos 自动发现</a></li><li class="sidebar-sub-header level3"><a href="/pages/02705b/#_9-页面验证" class="sidebar-link">9.页面验证</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/pages/02705b/#交流" class="sidebar-link">交流</a></li><li class="sidebar-sub-header level2"><a href="/pages/02705b/#特别感谢" class="sidebar-link">特别感谢</a></li></ul></li><li><a href="/pages/755ff3/" class="sidebar-link">功能验证</a></li><li><a href="/pages/44ef73/" class="sidebar-link">常见厂商标准采集方案集合</a></li><li><a href="/pages/2d1ebc/" class="sidebar-link">平台升级教程</a></li><li><a href="/pages/cc9adb/" class="sidebar-link">更新日志</a></li><li><a href="/pages/7bc5ac/" class="sidebar-link">页面展示</a></li><li><a href="/pages/c9c65b/" class="sidebar-link">页面引导1</a></li></ul></section></li></ul> </aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="articleInfo-wrap" data-v-06225672><div class="articleInfo" data-v-06225672><ul class="breadcrumbs" data-v-06225672><li data-v-06225672><a href="/" title="首页" class="iconfont icon-home router-link-active" data-v-06225672></a></li> <li data-v-06225672><a href="/categories/?category=pages" title="分类" data-v-06225672>pages</a></li><li data-v-06225672><a href="/categories/?category=article" title="分类" data-v-06225672>article</a></li></ul> <div class="info" data-v-06225672><div title="作者" class="author iconfont icon-touxiang" data-v-06225672><a href="https://gitee.com/iflytek/NetAxe.git" target="_blank" title="作者" class="beLink" data-v-06225672>netaxe</a></div> <div title="创建时间" class="date iconfont icon-riqi" data-v-06225672><a href="javascript:;" data-v-06225672>2022-09-22</a></div> <!----></div></div></div> <!----> <div class="content-wrapper"><div class="right-menu-wrapper"><div class="right-menu-margin"><div class="right-menu-title">目录</div> <div class="right-menu-content"></div></div></div> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABGpJREFUSA3tVVtoXFUU3fvOI53UlmCaKIFmwEhsE7QK0ipFEdHEKpXaZGrp15SINsXUWvBDpBgQRKi0+KKoFeJHfZA+ED9KKoIU2gYD9UejTW4rVIzm0VSTziPzuNu1z507dibTTjL4U/DAzLn3nL3X2o91ziX6f9wMFdh6Jvbm9nNSV0msViVO6tN1Rm7NMu2OpeJ9lWBUTDxrJbYTS0hInuwciu9eLHlFxCLCZEk3MegsJmZ5K/JD6t7FkFdEvGUo1g7qJoG3MHImqRIn8/nzY1K9UPKKiJmtnUqHVE3Gbuay6vJE/N2FEmuxFjW2nUuE0yQXRRxLiTUAzs36zhZvOXJPdX850EVnnLZkB8prodQoM5JGj7Xk2mvC7JB8tG04Ef5PiXtG0UtxupRQSfTnBoCy554x18yJHI6I+G5Eru4LHmPJZEQsrvPUbMiA8G/WgMK7w7I+ez7++o2ANfbrjvaOl1tFMs+htG3IrZH9/hDX1Pr8Tc0UvH8tcX29KzAgIGcEkINyW5BF9x891hw6VYqgJHEk0huccS7vh3C6gTiODL+26huuBtbct8eZnqLML8PkxGYpuPZBqtqwkSjgc4mB5gbgig5i+y0UDK35LMxXisn9xQtK+nd26gTIHsHe/oblK/b29fUmN/8Y+9jAQrnBp56m1LcDlDp9irKTExSKduXJVWSqdBMA08pEJnEIOB3FPPMybu/oeV8zFeYN3xx576Q6RH+VmplE4ncQV5v+5rzSoyOU7PuEAg8g803PwBJ0CExno/jcMbN8tONYeOmHiuUNryvm3fRUy4tMPVLdAGkUhNWuggGrJcXPv+ouCjz0MKUHz1J2/E8IC9nqTabcxgaBYM0hPhD5Y65FsbxRQKxCQrDjDctW7PUM3HuZunFyifSAqEfuzCp48Il24luWUWZoyJCaPR82jE0+kFA643wRFVni4RYSq3ohJO2pZ7B5dO4xkDWbEpossJPLSrPjYID8rS2UHTlvyNxqIGsg674XJJ7vnh5L7PNwC4hh2sjCI96mzszOTpxLF0T7l88Yz7lAuK6OnL8gXLOnTvpzSb22YG8W7us3jSebFHeeqnXRG1vt+MoUM84LQIBmMsCTAcOauTh0T0l0neQK7m2bLMt2mGxU3HYssS0J2cdv5wljlPsrIuZLAG/2DOZIXgCYT8uMGZN+e2kSirfxZOPCsC0f24nTZzspnVn9VePS1Z5vubmAGGXG8ZFno9Hel0yfA5ZPhF7Dh972BQJ2qCpgH67lmWtBYbvk6sz02wjky2vXyz0XErP/kFB619js1BtwfOV4OPRqOQBjy3Qbk18vigUPPSD5ceHnwck7W9bhAqZdd7SuG7w4/P2F/GaJh8c7e9qgow+Q7cGBo+98WsLkuktFqiZabtXuQTu/Y5ETbR0v7tNSFnvrmu6pjdoan2KjMu8q/Hmj1EfCO2ZGfEIbIXKUlw8qaX9/b2oeSJmFksSeT/Fn0V3nSypChh4Gjh74ybO9aeZ/AN2dwciu2/MhAAAAAElFTkSuQmCC">初始化<!----></h1> <!----> <div class="theme-vdoing-content content__default"><h1 id="快速部署-netaxe"><a href="#快速部署-netaxe" class="header-anchor">#</a> 快速部署 NetAxe</h1> <h2 id="总览"><a href="#总览" class="header-anchor">#</a> 总览</h2> <p>NetAxe 是一个高效的开源网络自动化平台。前端使用 Vue3、Typescript、NaiveUI 构建，后端使用 Django、Celery、Netmiko、Nornir 搭建网络设备自动化后端框架。无需编写过多代码,即可实现网络自动化运维,极大地提高运维效率。</p> <h2 id="浏览器支持"><a href="#浏览器支持" class="header-anchor">#</a> 浏览器支持</h2> <p>开发和测试平台均在 Google 上完成，暂未测试 IE11 等其它浏览器，如有需求请自行测试与兼容。</p> <h2 id="预备内容"><a href="#预备内容" class="header-anchor">#</a> 预备内容</h2> <ul><li><a href="https://www.centos.org/download/" target="_blank" rel="noopener noreferrer">centos 7.x <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://docs.docker.com/" target="_blank" rel="noopener noreferrer">docker 版本 &gt;= 18.9<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://github.com/docker/compose/releases" target="_blank" rel="noopener noreferrer">docker-compose 版本 &gt;= 1.18.0<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul> <h2 id="快速开始"><a href="#快速开始" class="header-anchor">#</a> 快速开始</h2> <ul><li>NetAxe 推荐使用 docker 虚拟化构建</li></ul> <h3 id="_1-docker-配置更新"><a href="#_1-docker-配置更新" class="header-anchor">#</a> 1. docker 配置更新</h3> <div class="language-shell script extra-class"><pre class="language-shell"><code><span class="token function">sudo</span> <span class="token function">tee</span> /etc/docker/daemon.json <span class="token operator">&lt;&lt;-</span><span class="token string">'EOF'
+{
+&quot;registry-mirrors&quot;: [&quot;https://tawedu6l.mirror.aliyuncs.com&quot;]
+}
+EOF</span>
+<span class="token function">sudo</span> systemctl daemon-reload
+<span class="token function">sudo</span> systemctl restart <span class="token function">docker</span>
+</code></pre></div><h3 id="_2-网络设备配置备份目录-git-初始化"><a href="#_2-网络设备配置备份目录-git-初始化" class="header-anchor">#</a> 2. 网络设备配置备份目录 git 初始化</h3> <div class="language-shell script extra-class"><pre class="language-shell"><code>
+<span class="token function">git</span> clone https://gitee.com/IFLY-DevNet/net-axe.git
+
+<span class="token builtin class-name">cd</span> net-axe
+可新建gitlab仓库
+
+新建配置备份专用的工作目录,并对其进行git初始化
+
+这个是配置备份的专用目录,git地址也应该是你自己单独建的一个仓库地址,跟本项目的git无关
+
+<span class="token function">mkdir</span> <span class="token parameter variable">-p</span> netaxe/media/device_config/current-configuration
+
+<span class="token builtin class-name">cd</span> netaxe/media/device_config
+
+在该目录下git关联配置备份git仓库,用来管理网络设备配置文件
+
+<span class="token function">git</span> init
+
+<span class="token function">git</span> remote <span class="token function">add</span> origin 仓库地址
+
+<span class="token function">git</span> fetch
+
+<span class="token function">git</span> checkout master
+
+<span class="token function">git</span> branch --set-upstream-to<span class="token operator">=</span>origin/master master
+
+</code></pre></div><h3 id="_3-启动数据库服务"><a href="#_3-启动数据库服务" class="header-anchor">#</a> 3. 启动数据库服务</h3> <div class="language-shell script extra-class"><pre class="language-shell"><code>
+<span class="token builtin class-name">cd</span> docker/databases
+
+<span class="token function">docker-compose</span> up <span class="token parameter variable">-d</span>
+
+</code></pre></div><h3 id="_4-配置-conf-文件"><a href="#_4-配置-conf-文件" class="header-anchor">#</a> 4. 配置 conf 文件</h3> <div class="language-shell script extra-class"><pre class="language-shell"><code>
+<span class="token builtin class-name">cd</span> /net-axe 项目目录
+
+<span class="token function">cp</span> netaxe/netboost/conf_bak.py netaxe/netboost/conf.py
+
+修改项目配置文件,将宿主机的网卡IP配置替换到配置文件中<span class="token punctuation">(</span>例如192.168.11.11,根据实际网卡IP配置<span class="token punctuation">)</span>
+
+<span class="token function">sed</span> <span class="token parameter variable">-i</span> <span class="token string">&quot;s/HOSTIP/192.168.11.11/g&quot;</span> netaxe/netboost/conf.py
+
+修改微服务apisix内部IP地址,修改为本机网卡IP   <span class="token number">192.168</span>.11.11 需要替换为实际服务器网卡IP
+<span class="token function">cp</span> docker/server/conf/apisix_conf/con_bak.yaml docker/server/conf/apisix_conf/config.yaml
+<span class="token function">cp</span> docker/server/conf/dashboard_conf/conf_bak.yaml docker/server/conf/dashboard_conf/conf.yaml
+<span class="token function">sed</span> <span class="token parameter variable">-i</span> <span class="token string">&quot;s/HOSTIP/192.168.11.11/g&quot;</span> docker/server/conf/apisix_conf/config.yaml
+<span class="token function">sed</span> <span class="token parameter variable">-i</span> <span class="token string">&quot;s/HOSTIP/192.168.11.11/g&quot;</span> docker/server/conf/dashboard_conf/conf.yaml
+两处IP地址均需要修改成宿主机IP
+
+</code></pre></div><h3 id="_5-启动所有服务-docker-server-下"><a href="#_5-启动所有服务-docker-server-下" class="header-anchor">#</a> 5. 启动所有服务(docker/server 下)</h3> <div class="language-bash extra-class"><pre class="language-bash"><code>
+<span class="token function">docker-compose</span> build
+
+<span class="token function">docker-compose</span> up <span class="token parameter variable">-d</span>
+
+</code></pre></div><h3 id="_6-数据初始化"><a href="#_6-数据初始化" class="header-anchor">#</a> 6. 数据初始化</h3> <div class="language-shell script extra-class"><pre class="language-shell"><code>
+进入后端服务容器命令行 以下对新用户生效
+
+老用户需要提前在项目目录netaxe/apps/ 下各个app的migrations目录下的000*.py文件进行删除再继续执行下面操作
+
+
+<span class="token function">docker</span> <span class="token builtin class-name">exec</span> <span class="token parameter variable">-it</span> netaxe-server /bin/bash
+
+python3 manage.py createsuperuser <span class="token comment"># 新建管理员账户，要输入管理员账户和密码</span>
+<span class="token comment"># 建议用户名adminnetaxe 密码netaxeadmin 如果不是，需要修改netaxe/netboost/conf.py文件中 netops_api的对应值</span>
+
+<span class="token builtin class-name">exit</span>
+</code></pre></div><h3 id="_7-微服务配置"><a href="#_7-微服务配置" class="header-anchor">#</a> 7. 微服务配置</h3> <div class="language-shell extra-class"><pre class="language-shell"><code>ip:9948
+adminnetaxe/netaxeadmin
+登录进apisix以后需要配置网关路由
+
+</code></pre></div><h4 id="路由菜单栏"><a href="#路由菜单栏" class="header-anchor">#</a> 路由菜单栏</h4> <p><img src="https://cdn.staticaly.com/gh/xuehaoweng/netaxe-image@master/api1.64neibncmvc0.webp" alt="路由菜单栏"></p> <h4 id="配置路由-api"><a href="#配置路由-api" class="header-anchor">#</a> 配置路由 /api/*</h4> <p><img src="https://cdn.staticaly.com/gh/xuehaoweng/netaxe-image@master/api2.6wlsxhfl1d80.webp" alt="配置路由api"></p> <h4 id="配置-nacos-自动发现"><a href="#配置-nacos-自动发现" class="header-anchor">#</a> 配置 nacos 自动发现</h4> <p><img src="https://cdn.staticaly.com/gh/xuehaoweng/netaxe-image@master/api3.2fx8nf8d6h0k.webp" alt="配置nacos自动发现"></p> <h3 id="_9-页面验证"><a href="#_9-页面验证" class="header-anchor">#</a> 9.页面验证</h3> <div class="language-bash extra-class"><pre class="language-bash"><code>前端登录验证:
+web 端口号 <span class="token number">8888</span>
+使用creatsuperuser 的账户密码登录
+
+后端管理后台验证:
+django 后台端口 <span class="token number">9999</span> 浏览器访问为 http://服务器 IP:9999/admin
+
+celery flower 验证:
+ip:5555
+admin/netaxdadmin
+
+
+nacos 验证
+ip:8848/nacos
+nacos/nacos
+进去查看服务列表是否有数据
+
+apisix验证:
+ip:9948
+netaxdadmin/adminnetaxe
+
+</code></pre></div><h2 id="交流"><a href="#交流" class="header-anchor">#</a> 交流</h2> <p><img src="https://cdn.staticaly.com/gh/xuehaoweng/netaxe-image@master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230106172200.240x6tqonx9c.webp" alt="NetAxe开源社区"></p> <h2 id="特别感谢"><a href="#特别感谢" class="header-anchor">#</a> 特别感谢</h2> <p>感谢伟大的 Django、VUE、vue-admin-work</p> <ul><li><a href="https://github.com/django/django" target="_blank" rel="noopener noreferrer">Django<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://github.com/vuejs/vue" target="_blank" rel="noopener noreferrer">VUE<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://github.com/qingqingxuan/vue-admin-work" target="_blank" rel="noopener noreferrer">vue-admin-work<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----> <div class="page-edit"><!----> <!----> <!----></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><!----> <a href="/pages/755ff3/" class="page-nav-centre page-nav-centre-next"><div class="tooltip">功能验证</div></a></div> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/pages/755ff3/">功能验证</a>→
+      </span></p></div></div></div> <div class="article-list"><div class="article-title"><a href="/archives/" class="iconfont icon-bi">最近更新</a></div> <div class="article-wrapper"><dl><dd>01</dd> <dt><a href="/pages/e293e7/"><div>
+            视频介绍
+            <!----></div></a> <span class="date">11-11</span></dt></dl><dl><dd>02</dd> <dt><a href="/pages/5668ed/"><div>
+            产品文档说明
+            <!----></div></a> <span class="date">11-11</span></dt></dl><dl><dd>03</dd> <dt><a href="/pages/2d1ebc/"><div>
+            平台升级教程
+            <!----></div></a> <span class="date">10-14</span></dt></dl> <dl><dd></dd> <dt><a href="/archives/" class="more">更多文章&gt;</a></dt></dl></div></div></main></div> <div class="footer"><div class="icons"><a href="netaxe@163.com" title="发邮件" target="_blank" class="iconfont icon-youjian"></a><a href="https://github.com/iflytek/NetAxe.git" title="GitHub" target="_blank" class="iconfont icon-github"></a><a href="https://music.163.com/#/playlist?id=755597173" title="听音乐" target="_blank" class="iconfont icon-erji"></a></div> 
+  Theme by
+  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> 
+    | Copyright © 2022-2023
+    <span>NetAxe| <a href="https://gitee.com/iflytek/NetAxe/blob/master/LICENSE" target="_blank">Apache License2.0</a></span></div> <div class="buttons"><div title="返回顶部" class="button blur go-to-top iconfont icon-fanhuidingbu" style="display:none;"></div> <div title="去评论" class="button blur go-to-comment iconfont icon-pinglun" style="display:none;"></div> <div title="主题模式" class="button blur theme-mode-but iconfont icon-zhuti"><ul class="select-box" style="display:none;"><li class="iconfont icon-zidong">
+          跟随系统
+        </li><li class="iconfont icon-rijianmoshi">
+          浅色模式
+        </li><li class="iconfont icon-yejianmoshi">
+          深色模式
+        </li><li class="iconfont icon-yuedu">
+          阅读模式
+        </li></ul></div></div> <!----> <!----> <!----></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.19a9fcfa.js" defer></script><script src="/assets/js/2.c9ef29ed.js" defer></script><script src="/assets/js/12.917c79ba.js" defer></script>
+  </body>
+</html>
