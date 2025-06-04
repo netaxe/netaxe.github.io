@@ -1,0 +1,1 @@
+import{_ as a,p as t,q as c,s as e,R as r}from"./framework-71306714.js";const s={},o=e("h2",{id:"权限中心使用手册",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#权限中心使用手册","aria-hidden":"true"},"#"),r(" 权限中心使用手册")],-1),n=[o];function _(d,i){return t(),c("div",null,n)}const l=a(s,[["render",_],["__file","rbac.html.vue"]]);export{l as default};

@@ -1,0 +1,1 @@
+import{_ as a,p as t,q as s,s as e,R as o}from"./framework-71306714.js";const c={},r=e("h2",{id:"平台架构图",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#平台架构图","aria-hidden":"true"},"#"),o(" 平台架构图")],-1),_=[r];function n(d,h){return t(),s("div",null,_)}const l=a(c,[["render",n],["__file","page_show.html.vue"]]);export{l as default};
